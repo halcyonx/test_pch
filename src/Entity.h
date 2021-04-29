@@ -6,9 +6,6 @@
 #define TEST_PCH_ENTITY_H
 
 #include "Component.h"
-#include <vector>
-#include <memory>
-
 
 class Entity {
 public:

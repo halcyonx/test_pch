@@ -6,8 +6,6 @@
 #define TEST_PCH_SYSTEM_H
 
 #include "Entity.h"
-#include <vector>
-#include <string>
 
 class System {
 public:

@@ -3,7 +3,6 @@
 //
 
 #include "Component.h"
-#include <iostream>
 
 PositionComponent2D::PositionComponent2D(float x, float y)
     : _x(x), _y(y)

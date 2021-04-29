@@ -3,8 +3,6 @@
 //
 
 #include "Entity.h"
-#include <iostream>
-#include <string>
 
 Entity::Entity(int id)
     : _id(id)

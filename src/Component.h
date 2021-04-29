@@ -5,8 +5,6 @@
 #ifndef TEST_PCH_COMPONENT_H
 #define TEST_PCH_COMPONENT_H
 
-#include <string_view>
-
 class Component {
 public:
     Component() = default;
