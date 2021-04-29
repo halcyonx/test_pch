@@ -16,7 +16,7 @@ set(pch_src "src/pch.h")
 
 add_library(${target_name} STATIC ${src_files})
 
-target_precompile_headers(${target_name} PRIVATE ${pch_src})
+target_precompile_headers(${target_name} PUBLIC ${pch_src})
 
 get_target_property(pch_headers ${target_name} PRECOMPILE_HEADERS)
 
