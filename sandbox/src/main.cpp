@@ -2,6 +2,9 @@
 #include "Component.h"
 #include "System.h"
 
+#include <iostream>
+// #include <>
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
